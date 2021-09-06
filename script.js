@@ -46,28 +46,7 @@ const carrito = [
   }
  ];
  
-//function buscarId(id) {
-  //let encontrado = false;
-  //for (i = 0; i < bookings.length; i++) {
-    //encontrado = encontrado || bookings[i].id == id;
-    //}
-    //return encontrado;
-  //}
 
-  //for (i = 0; i < carrito.length; i++) {
-    //imprimir(carrito[i]);
-  //}
-
-//function imprimir(carrito) {
-  //for(attr in carrito) {
-    //console.log(attr.toUpperCase() +": " + carrito[attr]);
-  //}
-  //console.log(imprimir(carrito));
-
-
-  //for(attr in carrito) {
-    //console.log(attr.toUpperCase() +": " + carrito[attr]);
-  //}
   //LISTAR TODOS LOS PRODUCTOS
   console.log("++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     console.log("*LISTAR TODOS LOS PRODUCTOS");
@@ -106,7 +85,6 @@ const carrito = [
          console.log("Total: " + total2 + ". Con gastos de envío");
        }
    
-
  console.log("-------------------------------------------------------")
 
 
@@ -119,7 +97,6 @@ const carrito = [
       indice = i;
     };
   }
-
   carrito.splice(indice, 1);
 
   for (producto of carrito){
@@ -146,13 +123,7 @@ const carrito = [
   }
 
 
-  //OPCIONAL
-  //let total2 = 100;
-  //function gastosEnv () {
-    //if(total2 == 100){
-      //console.log("Enhorabuena, no pagas gastos de envío" + total2);
-    //}
-  //}
+ 
 
 
 

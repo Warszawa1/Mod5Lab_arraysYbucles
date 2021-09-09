@@ -1,0 +1,11 @@
+.nombre {
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-bottom: 50px;
+   text-align: left; 
+}
+
+#carrito-items{ 
+    width: 150%; ;
+    font-size: 25px;
+}

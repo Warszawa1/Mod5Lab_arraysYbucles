@@ -49,7 +49,7 @@ const carrito = [
 //LISTAR TODOS LOS PRODUCTOS
 console.log("++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 console.log("*LISTAR TODOS LOS PRODUCTOS"); 
- for (producto of carrito) {
+ for (var producto of carrito) {
    imprimir(producto);
  }
 
@@ -159,7 +159,7 @@ console.log("*MOSTRAR EL CARRITO EN UN LISTADO DE HTML BÁSICO.");
     console.log("------------------------------------------------------");
   }
 
-  for (producto of carrito){
+  for (var producto of carrito){
     imprimir(producto);
   }
   
